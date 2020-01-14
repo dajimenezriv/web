@@ -1,0 +1,68 @@
+/*****************TITULO*****************/
+
+#titulo {
+
+	font-size: 50px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #7aa3a1;
+	font-family: "amatic";
+	border-bottom: 4px solid #7aa3a1;
+
+}
+
+/*****************ENTRADAS*****************/
+
+.entrada {
+
+	width: 70%;
+	margin: auto;
+	margin-top: 4%;
+
+}
+
+.entrada a {
+
+	color: black;
+
+}
+
+.entrada h3 {
+
+	font-size: 22px;
+	font-family: "amatic";
+	word-spacing: 5px;
+
+}
+
+.entrada h3 .titulo2 {
+
+	font-size: 30px;
+	color: #e86330;
+
+}
+
+.entrada h3 .otros {
+
+	font-size: 28px;
+
+}
+
+.entrada p {
+
+	margin-top: 2%;
+	font-size: 17px;
+	font-family: "Arial";
+	color: #242526;
+	text-align: justify;
+
+}
+
+/*****************FOOTER*****************/
+
+footer {
+
+	margin-top: 5%;
+
+}

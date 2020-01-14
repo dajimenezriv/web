@@ -1,0 +1,177 @@
+/*****************SECCION*****************/
+
+#seccion {
+
+	margin: auto;
+	width: 100%;
+	border-bottom: 4px solid #7aa3a1;
+
+}
+
+#seccion h2 {
+
+	font-size: 70px;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #7aa3a1;
+	font-family: "amatic";
+
+}
+
+/*****************ARTICULOS*****************/
+
+#articulos {
+
+	width: 100%;
+
+}
+
+#articulos article {
+
+	width: 100%;
+	display: table;
+	border-bottom: 4px solid #7aa3a1;
+
+}
+
+#articulos article .imagenArticulo {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 31%;
+	padding: 2%;
+
+}
+
+#articulos article .imagenArticulo img {
+
+	width: 99%;
+	float: left;
+	opacity: 0.9;
+	min-height: 300px;
+	max-height: 300px;
+	object-fit: cover; 
+	object-position: 50%;
+	border: 2px solid #000;
+	border-radius: 5px;
+
+}
+
+#articulos article .imagenArticulo img:hover {
+
+	opacity: 1;
+
+}
+
+#articulos article .contenido {
+
+	width: 59%;
+	padding: 3%;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+#articulos article .contenido h3 {
+
+	font-size: 20px;
+	font-family: "amatic";
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 3%;
+	word-spacing: 7px;
+	display: block;
+	text-align: center;
+
+}
+
+#articulos article .contenido .titulo {
+
+	font-size: 40px;
+	font-family: "amatic";
+
+}
+
+#articulos article .contenido .otros {
+
+	font-size: 30px;
+	font-family: "amatic";
+
+}
+
+#articulos article .contenido h3 a {
+
+	color: #000;
+
+}
+
+#articulos article .contenido p {
+
+	text-align: justify;
+	font-size: 17px;
+	font-family: "Arial";
+
+}
+
+#contenido span {
+
+	display: block;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1000px) {	
+
+	#articulos article .imagenArticulo {
+
+		width: 96%;
+		display: block;
+		float: left;
+
+	}
+	
+	#articulos article .contenido {
+
+		width: 91%;
+		display: block;
+		float: none;
+		margin: auto;
+
+	}
+
+}
+
+/*****************PAGINADOR*****************/
+
+#paginador {
+
+	width: 100%;
+
+}
+
+#paginador button {
+
+	width: 50%;
+	float: left;
+	border: none;
+	padding: 1%;
+	font-size: 30px;
+	font-family: "amatic";
+	font-weight: bold;
+
+}
+
+#paginador button:hover {
+
+	cursor: pointer;
+
+}
+
+/*****************PIE DE PAGINA*****************/
+
+footer {
+
+	border-top: 4px solid #7aa3a1;
+
+}	

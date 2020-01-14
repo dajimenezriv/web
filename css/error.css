@@ -1,0 +1,45 @@
+/*****************ERROR*****************/
+
+#error {
+
+	margin: auto;
+	margin-top: 4%;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 60%;
+	background: #94b4e8;
+	border: 2px solid #000;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+#error h2 {
+
+	font-family: "amatic";
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 3%;
+
+}	
+
+#espacio {
+
+	margin: auto;
+	width: 70%;
+	background: #d0daea;
+	border-radius: 0px 0px 10px 10px;
+	height: 50px;
+	margin-bottom: 4%;
+	border: 2px solid #000;
+	border-top: 0px;
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	#error {
+		width: 80%;
+	}
+	
+}

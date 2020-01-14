@@ -1,0 +1,71 @@
+/*****************BIENVENIDO*****************/
+
+#bienvenido {
+
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 60%;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background: #d0daea;
+	padding-bottom: 2%;
+
+}
+
+#bienvenido h2 {
+
+	font-family: "amatic";
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 3%;
+	background: #94b4e8;
+	padding: 2%;
+	border-radius: 10px 10px 0 0;
+
+}
+
+#bienvenido #imagenRegistroCorrecto {
+
+	margin: auto;
+	width: 300px;
+	margin-bottom: 4%;
+
+}
+
+#bienvenido #imagenRegistroCorrecto img {
+
+	width: 100%;
+	border: 4px solid #000;
+	background: #242526;
+	border-radius: 10px;
+	padding: 1%;
+
+}
+
+#bienvenido p {
+
+	font-family: "courier new";
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-left: 6%;
+	margin-right: 6%;
+
+}
+
+#bienvenido p a {
+
+	color: #ff0000;
+
+}
+
+@media screen and (max-width: 768px) {
+
+	#bienvenido {
+
+		width: 80%;
+
+	}
+
+}

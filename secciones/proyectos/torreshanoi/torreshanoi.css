@@ -1,0 +1,91 @@
+/*****************SECCION*****************/
+
+#seccion {
+
+	margin: auto;
+	width: 100%;
+	border-bottom: 4px solid #7aa3a1;
+	font-size: 30px;
+	background: #fff;
+
+}
+
+#seccion h2 {
+
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #7aa3a1;
+	font-weight: 900;
+	font-family: "amatic";
+
+}
+
+/*****************FORMULARIO*****************/
+
+#torresHanoi {
+
+	width: 94%;
+	padding: 3%;
+	background: #242526;
+	text-align: center;
+
+}
+
+#torresHanoi #formJuego label {
+
+	font-size: 25px;
+	font-family: "amatic";
+	font-weight: bold;
+	display: block;
+	color: white;
+
+}
+
+#torresHanoi #formJuego input[type="number"] {
+
+	height: 30px;
+	width: 10%;
+	display: block;
+	margin: auto;
+	margin-top: 1%;
+	text-align: center;
+
+}
+
+#torresHanoi #formJuego input[type="button"] {
+
+	min-width: 150px;
+	margin-top: 1%;
+	background: #b1b5bc;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: "amatic";
+	font-weight: bold;
+	padding: .5%;
+
+}
+
+#torresHanoi #formJuego input[type="button"]:hover {
+
+	background: #e5814b;
+	cursor: pointer;
+
+}
+
+#juego {
+
+	background: #b1b5bc;
+	border-top: 4px solid #7aa3a1;
+	text-align: center;
+
+}
+
+/*****************PIE DE PÁGINA*****************/
+
+footer {
+
+	border-top: none;
+
+}

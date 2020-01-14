@@ -1,0 +1,287 @@
+/*****************FUENTES*****************/
+
+@font-face {
+
+	font-family: "amatic";
+	src: url("../fuentes/Amatic.ttf");
+
+}
+
+@font-face {
+
+	font-family: "courier new";
+	src: url("../fuentes/CourierNew.ttf");
+
+}
+
+/*****************GLOBAL*****************/
+
+* {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+*:focus {
+
+	outline: none;
+
+}
+
+body {
+
+	width: 100%;
+	background: #fff;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+/*****************TITULO*****************/
+
+h1 {
+
+	color: #fff;
+	font-size: 80px;
+	font-family: "amatic";
+	font-weight: bold;
+
+}
+
+header #navSuperior {
+
+	padding-left: 2%;
+	padding-right: 2%;
+	background: #242526;
+	height: 100px;
+
+}
+
+header #navSuperior #navIzquierdo {
+
+	float: left;
+	display: table;
+	width: 50%;
+	height: 100px;
+
+}
+
+header #navSuperior #navIzquierdo #tituloWeb {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 200px;
+
+}
+
+header #navSuperior #navIzquierdo #tituloWeb img {
+
+	width: 200px;
+
+}
+
+header #navSuperior #navDerecho {
+
+	float: right;
+	width: 50%;
+	height: 100px;
+	display: table;
+
+}
+
+header #navSuperior #registro {
+
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 2%;
+
+}
+
+header #navSuperior #registro img {
+
+	width: 50px;
+	float: right;
+	margin-right: 2%;
+
+}
+
+header #navSuperior #registro h2 {
+
+	font-family: "amatic";
+	font-size: 35px;
+	color: #fff;
+	float: right;
+	margin-right: 3%;
+
+}
+
+header #navSuperior #registro h2 a {
+
+	color: #fff;
+
+}
+
+header #navSuperior #busqueda {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 10%;
+
+}
+
+header #navSuperior #busqueda input {
+
+	float: right;
+	height: 40px;
+	font-family: "amatic";
+	font-weight: bold;
+	font-size: 22px;
+	padding: 1%;
+	border-radius: 5px;
+	padding-left: 5%;
+	border: 1px solid #b0b3b7;
+
+}
+
+@media screen and (max-width: 760px) {
+
+	header #navSuperior #navDerecho {
+
+		width: 20%;
+
+	}
+
+	header #navSuperior #busqueda {
+
+		display: none;
+
+	}
+
+	header #navSuperior #registro h2 {
+
+		display: none;
+
+	}
+
+}
+
+/*****************MENU DE NAVEGACION*****************/
+
+header nav {
+
+	background: #fff;
+	text-align: center;
+	height: 50px;
+	display: table;	
+	width: 100%;
+	border-bottom: 1px solid #000;
+
+}
+
+header nav ul {
+
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+header nav ul li {
+
+	width: 45%;
+	font-size: 35px;
+	font-family: "amatic";
+	list-style-type: none;
+	display: inline-block;
+	font-weight: bold;
+
+}
+
+header nav ul li a {
+
+	color: #d81523;
+
+}
+
+header nav ul li a:hover {
+
+	color: #52c9c1;
+
+}
+
+/*****************PIE DE PAGINA*****************/
+
+footer {
+
+	width: 94%;
+	background: #565552;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	border-top: 4px solid #242526;
+	display: table;
+
+}
+
+footer p {
+
+	font-size: 25px;
+	font-family: "amatic";
+	color: white;
+	font-weight: bold;
+
+}
+
+footer #usRegistrados {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	float: left;
+
+}
+
+footer #usRegistrados {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	float: left;
+
+}
+
+footer #final {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	float: right;
+
+}
+
+footer #usRegistrados p {
+
+	text-align: left;
+
+}
+
+footer #final p {
+
+	text-align: right;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	footer p {
+
+		font-size: 18px;
+
+	}
+
+}

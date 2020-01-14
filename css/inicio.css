@@ -1,0 +1,316 @@
+/*****************GLOBAL*****************/
+
+body {
+
+	background: #242526;
+
+}
+
+/*****************IMAGEN ENTRADA*****************/
+
+#articles #imagenInicio {
+
+	width: 100%;
+	background: #242526;
+
+}
+
+#articulos #imagenInicio img {
+
+	width: 100%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	opacity: 0.9;
+
+}
+
+#articulos #imagenInicio img:hover {
+
+	opacity: 1;
+
+}
+
+/*****************INFORMACION*****************/
+
+#articulos #informacion {
+
+	width: 100%;
+	background: #b2aeab;
+	padding-bottom: 2%;
+
+}
+
+#articulos #informacion h2 {
+
+	font-size: 70px;
+	color: #d81523;
+	background: #fff;
+	padding: .5%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-family: "amatic";
+	border-bottom: 4px solid #242526;
+
+}
+
+#articulos #informacion p {
+
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	color: black;
+	font-family: "amatic";
+	font-size: 32px;
+	word-spacing: 7px;
+	font-weight: bold;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#articulos #informacion p {
+
+		font-size: 20px;
+		width: 90%;
+	
+	}
+
+}
+
+/*****************UTLIMOS ARTICULOS*****************/
+
+#articulos #ultimosArticulos {
+
+	width: 100%;
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo {
+
+	width: 100%;
+	display: table;
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo img {
+
+	width: 100%;
+	float: left;
+	border-top: 4px solid #242526;
+	min-height: 300px;
+	max-height: 300px;
+	object-fit: cover; 
+	object-position: 50%;
+	opacity: 0.9;
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo img:hover {
+
+	opacity: 1;
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo div {
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 45%;
+	border-top: 4px solid #242526;
+	background: #fff;
+	min-height: 250px;
+	max-height: 250px;
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo div h2 {
+
+	text-align: center;
+	font-size: 50px;
+	font-family: "amatic";
+
+}
+
+#articulos #ultimosArticulos .articuloNuevo div h2 a {
+
+	color: #000;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#articulos #ultimosArticulos .articuloNuevo img {
+
+		min-height: 200px;
+		max-height: 200px;
+
+	}
+
+	#articulos #ultimosArticulos .articuloNuevo div {
+
+		min-height: 200px;
+		max-height: 200px;
+
+	}
+
+	#articulos #ultimosArticulos .articuloNuevo div h2 {
+
+		font-size: 30px;
+
+	}
+
+}
+
+/*****************EXTRA*****************/
+
+#articulos #extra {
+
+	width: 100%;
+
+}
+
+#articulos #extra #advertencia {
+
+	border-top: 4px solid #242526;
+	padding: 2%;
+	background: #e08a79;
+
+}
+
+#articulos #extra #consejo {
+
+	border-top: 4px solid #242526;
+	padding: 2%;
+	background: #e8e56a;
+
+}
+
+#articulos #extra #sabiasQue {
+
+	border-top: 4px solid #242526;
+	padding: 2%;
+	background: #e59ced;
+
+}
+
+#articulos #extra h2 {
+
+	font-family: "amatic";
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+/*****************FORMULARIO*****************/
+
+#articulos #contacto {
+
+	padding: 2%;
+	width: 96%;
+	background: #cacdd1;
+	overflow: hidden;
+	text-align: center;
+	border-top: 4px solid #242526;
+
+}
+
+#articulos #contacto h2 {
+
+	font-family: "amatic";
+	font-size: 70px;
+	color: #423f3d;
+
+}
+
+#articulos #contacto #formContacto #error {
+
+ 	width: 60%;
+	padding: 1.5%;
+	background: #efcac4;
+	text-align: center;
+	font-family: "courier new";
+	font-size: 20px;
+	border-radius: 2px;
+	color: #e20d0d;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+
+}
+
+#articulos #contacto #formContacto input[type="text"] {
+
+	margin-bottom: 1%;
+	margin-top: 3%;
+	width: 50%;
+	padding: 1%;
+	font-size: 17px;
+	border-radius: 5px;
+	font-family: "Arial";
+	border: 1px solid #b0b3b7;
+
+}
+
+#articulos #contacto #formContacto textarea {
+
+	min-height: 200px;
+	max-height: 500px;
+	margin-bottom: 1%;
+	width: 50%;
+	padding: 1%;
+	font-size: 17px;
+	border-radius: 5px;
+	resize: vertical;
+	font-family: "Arial";
+	border: 1px solid #b0b3b7;
+
+}
+
+#articulos #contacto #formContacto input[type="submit"] {
+
+	background: #d86f36;
+	color: #fff;
+	border: none;
+	padding: 1%;
+	width: 54%;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: "amatic";
+	font-weight: bold;
+
+}
+
+#articulos #contacto #formContacto input[type="text"]:hover, #articulos #contacto #formContacto textarea:hover {
+
+	border: 1px solid #e5814b;
+
+}
+
+#articulos #contacto #formContacto input[type="submit"]:hover {
+
+	background: #e5814b;
+	cursor: pointer;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#articulos #contacto #formContacto input[type="text"] {
+
+		width: 70%;
+
+	}
+
+	#articulos #contacto #formContacto textarea {
+
+		width: 70%;
+
+	}
+	
+	#articulos #contacto #formContacto input[type="submit"] {
+
+		width: 72%;
+
+	}
+
+}

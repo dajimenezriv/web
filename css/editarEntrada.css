@@ -1,0 +1,164 @@
+/*****************GESTOR*****************/
+
+#gestor {
+
+	display: block;
+	background: #7aa3a1;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	width: 75%;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+/*****************TITULO*****************/
+
+#gestor h2 {
+
+	text-align: center;
+	font-size: 40px;
+	font-family: "amatic";
+	padding-bottom: 2%;
+
+}
+
+/*****************FORMULARIO*****************/
+
+#gestor form {
+
+	background: #242526;
+	padding: 2%;
+	width: 96%;
+	margin: auto;
+
+}
+
+#gestor form #error {
+
+	width: 83%;
+	padding: 1.5%;
+	background: #efcac4;
+	text-align: center;
+	font-family: "courier new";
+	font-size: 20px;
+	border-radius: 2px;
+	color: #e53d20;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+#gestor form div {
+
+	margin: auto;
+	width: 80%;
+	display: block;
+	margin-bottom: 3%;
+	text-align: center;
+
+}
+
+#gestor form div select {
+
+	width: 59%;
+	padding: .5%;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 6px;
+	font-family: "courier new";
+
+}
+
+#gestor form div input[type="checkbox"] {
+	
+	margin-right: 3%;
+
+}
+
+#gestor form div label {
+
+	font-size: 22px;
+	color: #fff;
+	font-family: "courier new";
+	margin-left: 4%;
+	margin-top: 0.5%;
+	width: 40%;
+
+}
+
+#gestor form input[type="text"], #gestor form input[type="file"] {
+
+	width: 79%;
+	padding: .5%;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	border-radius: 6px;
+	font-family: "courier new";
+
+}
+
+#gestor form #inputTitulo, #gestor form #inputActiva, #gestor form #inputConsejo, #gestor form #inputSabiasQue, #gestor form #inputImagen {
+
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+#gestor form textarea {
+
+	width: 75%;
+	padding: 1.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: auto;
+	margin-top: 3%;
+	font-size: 17px;
+	text-align: justify;
+	border-radius: 6px;
+	height: 600px;
+	display: block;
+	font-family: "Arial";
+	resize: vertical;
+
+}
+
+#gestor form[method="post"] button {
+
+	width: 88%;
+	background: #f49e42;
+	border: none;
+	border-radius: 8px;
+	padding: 1.5%;
+	margin: auto;
+	margin-top: 3%;
+	display: block;
+	font-size: 30px;
+	font-family: "amatic";
+	font-weight: bold;
+	color: #000;
+
+}
+
+#gestor form button:hover {
+
+	cursor: pointer;
+	background: #e08626;
+
+}
+
+@media screen and (max-width: 760px) {
+
+	#gestor form div select {
+
+		width: 100%;
+		margin-bottom: 2%;
+
+	}
+
+}

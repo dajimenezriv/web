@@ -1,0 +1,467 @@
+/*****************TITULO*****************/
+
+#titulo {
+
+	margin: auto;
+	width: 96%;
+	border-bottom: 4px solid #7aa3a1;
+	padding-left: 2%;
+	padding-right: 2%; 
+
+}
+
+#titulo h2 {
+
+	font-size: 50px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	color: #7aa3a1;
+	font-family: "amatic";
+
+}
+
+#titulo p {
+
+	text-align: center;
+	color: #7aa3a1;
+	font-family: "amatic";
+	font-size: 38px;
+	word-spacing: 7px;
+	margin-bottom: 2%;
+
+}
+
+#titulo p span {
+
+	font-weight: bold;
+
+}
+
+#titulo #botonFavorito {
+
+	text-align: center;
+	color: #7aa3a1;
+	font-family: "amatic";
+	font-size: 38px;
+	word-spacing: 7px;
+	display: block;
+	margin: auto;
+	margin-bottom: 2%;
+
+}
+
+#titulo #botonFavorito #imagenFavorito {
+
+	width: 40px;
+	margin-bottom: -5px;
+
+}
+
+/*****************CONTENIDO*****************/
+
+#contenido {
+
+	margin: auto;
+	width: 50%;
+	margin-top: 4%;	
+	margin-bottom: 4%;
+	min-width: 700px;
+
+}
+
+#contenido p {
+
+	font-size: 17px;
+	font-family: "Arial";
+	text-align: justify;
+	color: #242526;
+	padding-left: 1%;
+
+}
+
+#contenido h4 {
+
+	font-size: 30px;
+	font-weight: normal;
+	font-family: "Arial";
+	margin-bottom: 1%;
+	margin-top: 5%;
+
+}
+
+#contenido h5 {
+
+	font-size: 24px;
+	font-weight: normal;
+	font-family: "Arial";
+
+}
+
+#contenido img {
+
+	width: 80%;
+	margin: auto;
+	display: block;
+	border-radius: 6px;
+	margin-bottom: 4%;
+	margin-top: 4%;
+	
+}
+
+#contenido span {
+
+	display: block;
+	text-align: center;
+
+}
+
+#contenido .codigo {
+
+	width: 97%;
+	margin: auto;
+	background-color: #3b3c3d;
+	color: #e0e2e5;
+	padding: 2%;
+	border: 1px solid #000;
+	border-radius: 3px;
+	font-size: 15px;
+	font-family: "Arial";
+	resize: none;
+	overflow-x: auto;
+	white-space: nowrap;
+
+}
+
+#contenido .codigo span {
+
+	display: inline-block;
+	text-align: justify;
+	color: #f4ff2d;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#contenido {
+
+		min-width: 0;
+		width: 80%;
+
+	}
+
+}
+
+/*****************AZAR*****************/
+
+#azar {
+
+	width: 100%;
+	padding-bottom: 1%;
+	text-align: center;
+	padding-top: 2%;
+	border-top: 4px solid #7aa3a1;
+	border-bottom: 4px solid #7aa3a1;
+
+}
+
+#azar h2 {
+
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 2%;
+	color: #7aa3a1;	font-family: "amatic";
+
+}
+
+#azar .entrada {
+
+	width: 28%;
+	display: inline-block;
+	margin: 2%;	
+	border: 1px solid #000;
+	border-radius: 10px;
+
+}
+
+#azar .entrada h3 {
+
+	text-align: center;
+	color: #7aa3a1;
+	font-family: "amatic";
+	font-size: 35px;
+	background: #93979e;
+	padding: 1%;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #000;
+
+}
+
+#azar .entrada h3 a {
+
+	color: #242526;
+
+}
+
+#azar .entrada img {
+
+	width: 100%;
+	float: left;
+	min-height: 300px;
+	max-height: 300px;
+	object-fit: cover; 
+	object-position: 50%;
+	opacity: 0.9;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+
+}
+
+@media screen and (max-width: 760px) {
+
+	#azar .entrada {
+
+		margin: auto;
+		width: 80%;
+		display: block;
+		margin-bottom: 5%;
+		margin-top: 5%;
+
+	}
+
+}
+
+/*****************COMENTARIO*****************/
+
+#comentarios {
+
+	width: 100%;
+
+}
+
+#comentarios #error {
+
+	background: #efcac4;
+	padding: 1%;
+	text-align: center;
+	margin-top: 2%;
+	font-family: "courier new";
+	font-size: 20px;
+	border-radius: 2px;
+	color: #e53d20;
+
+}
+
+#comentarios h2 {
+
+	font-size: 40px;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	color: #7aa3a1;	
+	font-family: "amatic";
+
+}
+
+#comentarios h2:hover {
+
+	cursor: pointer;
+
+}
+
+#comentarios #escribirComentario {
+
+	width: 80%;
+	display: block;
+	margin: auto;
+
+}
+
+#comentarios #escribirComentario input {
+
+	width: 97%;
+	display: block;
+	margin: auto;
+	border-radius: 6px;
+	border: 2px solid #7aa3a1;
+	padding: 0.5%;
+	text-align: center;
+	font-size: 17px;
+	font-family: "Arial";
+
+}
+
+#comentarios #escribirComentario textarea {
+
+	width: 94%;
+	padding: 2%;
+	display: block;
+	margin: auto;
+	resize: vertical;
+	border-radius: 6px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: 2px solid #7aa3a1;
+	text-align: justify;
+	font-size: 17px;
+	font-family: "Arial";
+	height: 200px;
+
+
+}
+
+#comentarios #escribirComentario button {
+
+	width: 100%;
+	padding: 1%;
+	font-size: 25px;
+	font-family: "amatic";
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 8%;
+	display: block;
+	background: #a9c5e5;
+	border-radius: 8px;
+
+}
+
+#comentarios #escribirComentario button:hover {
+
+	cursor: pointer;
+
+}
+
+#comentariosEscritos {
+
+	display: none;
+
+}
+
+.comentario {
+
+	width: 76%;
+	margin: auto;
+	margin-bottom: 4%;
+	background: #d9dbe0;
+	padding: 2%;
+	border-radius: 7px;
+
+}
+
+.respuesta {
+
+	width: 66%;
+	margin: auto;
+	margin-bottom: 4%;
+	background: #d9dbe0;
+	padding: 2%;
+	border-radius: 7px;
+
+}
+
+.tituloComentario {
+
+	font-family: "amatic";
+	margin-bottom: 1%;
+	font-size: 20px;
+	word-spacing: 7px;
+
+}
+
+.tituloComentario .titulo {
+
+	font-size: 30px;
+
+}
+
+.tituloComentario .otros {
+
+	font-size: 25px;
+
+}
+
+.comentario p, .respuesta p {
+
+	text-align: justify;
+	font-size: 17px;
+	font-family: "Arial";
+
+}
+
+.comentario button, .respuesta button {
+
+	float: right;
+	padding: 0.5%;
+	background: #242526;
+	border-radius: 6px;
+	color: #fff;
+	box-shadow: 5px 5px 0px #d0d3d8;
+	border: none;
+	font-family: "amatic";
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 2%;
+
+}
+
+.comentario button:hover, .respuesta button:hover {
+
+	cursor: pointer;
+	box-shadow: 3px 3px 0px #d0d3d8;
+
+}
+
+@media screen and (max-width: 760px) {
+
+	.comentario {
+
+		margin-bottom: 5%;
+
+	}
+
+	.tituloComentario .titulo {
+
+		font-size: 20px;
+
+	}
+
+	.tituloComentario .otros {
+
+		font-size: 18px;
+
+	}
+
+	.comentario p, .respuesta p {
+
+		font-size: 12px;
+
+	}
+
+	.comentario button, .respuesta button {
+
+		font-size: 15px;
+
+	}
+
+}
+
+/*****************FOOTER*****************/
+
+footer {
+
+	margin-top: 5%;
+
+}
+
+@media screen and (max-width: 760px) {
+
+	footer {
+
+		margin-top: 15%;
+
+	}
+
+}
