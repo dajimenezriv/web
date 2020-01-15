@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule (^.*$) index.php
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
