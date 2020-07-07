@@ -4,7 +4,7 @@
 - Install lampp.<br>
 - Download all files and create a directory named "geek".<br>
 - Move "geek" to /opt/lampp/htdocs.<br>
-- Rename "htaccess" to ".htaccess".
+- Rename "htaccess" to ".htaccess".<br>
 - Init lampp (/opt/lampp/lampp start).<br>
 <br>
 - http://localhost/phpmyadmin.<br>
