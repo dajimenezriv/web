@@ -2,7 +2,7 @@
 
 <h3>Linux</h3>
 - Install lampp.<br>
-- Download repository "geek" and rename it to "geek".<br>
+- Download repository "web" and rename it to "geek".<br>
 - Move "geek" to /opt/lampp/htdocs (/opt/lampp/htdocs/geek).<br>
 - Rename "htaccess" inside "geek" to ".htaccess".<br>
 - Init lampp (/opt/lampp/lampp start).<br>
