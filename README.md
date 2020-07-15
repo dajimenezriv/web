@@ -8,7 +8,7 @@
 - Init lampp (/opt/lampp/lampp start).<br>
 <br>
 - http://localhost/phpmyadmin.<br>
-- Import file: /opt/lampp/htdocs/bbdd/blog.sql.<br>
+- Import file: /opt/lampp/htdocs/geek/bbdd/blog.sql.<br>
 - http://localhost/geek<br>
 <br>
 <h3>User</h3><br>
