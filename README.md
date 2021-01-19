@@ -1,4 +1,4 @@
-# web
+# Web
 
 <h3>Linux</h3>
 - Install lampp.<br>
