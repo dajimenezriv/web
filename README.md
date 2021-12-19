@@ -11,7 +11,7 @@
 - Import file: /opt/lampp/htdocs/geek/bbdd/blog.sql.<br>
 - http://localhost/geek<br>
 <br>
-<h3>User</h3><br>
+<h3>User</h3>
 User: Zepovop<br>
 Pass: 1234<br>
 <br>
