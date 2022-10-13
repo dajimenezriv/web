@@ -1,6 +1,6 @@
 # Web
 
-I did it when I was 18 years old.
+I did it when I was 17/18 years old.
 
 <h3>Linux</h3>
 - Install lampp.<br>
